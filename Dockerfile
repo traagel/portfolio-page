@@ -17,7 +17,7 @@ COPY . .
 RUN bun run build
 
 # Expose the port Next.js runs on
-EXPOSE 3500
+EXPOSE 3000
 
 # Run the app
 CMD ["bun", "start"]

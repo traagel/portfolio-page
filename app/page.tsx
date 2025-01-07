@@ -111,20 +111,30 @@ export default function Home() {
             <section className="mb-16">
               <h2 className="text-2xl font-semibold mb-6">Homelab Node Monitoring</h2>
               <p className="text-lg mb-4">
-                I maintain a sophisticated homelab environment for development and experimentation.
+                I maintain a sophisticated homelab environment for development and experimentation. Most of my nodes run on Debian Linux, which provides a stable and secure foundation for hosting various services.
+              </p>
+              <p className="text-lg mb-4">
+                I heavily utilize Docker and Docker Compose for managing containers, enabling seamless deployment of applications. Additionally, some nodes are set up with K3s, a lightweight Kubernetes distribution, for orchestrating containerized workloads across the cluster.
+              </p>
+              <p className="text-lg mb-4">
+                On top of these services, I also experiment with CPU mining for cryptocurrencies like Monero (XMR), leveraging my homelab’s processing power efficiently.
               </p>
               {serverData.servers && serverData.servers.length > 0 ? (
                 <>
                   <ul className="list-disc list-inside mb-4">
                     {serverData.servers.slice(0, 5).map((server, index) => (
-                      <li key={index} className="text-lg">{server.name} ({server.image})</li>
+                      <li key={index} className="text-lg">
+                        {server.name} ({server.image})
+                      </li>
                     ))}
-                    {serverData.servers.length > 5 && <li className="text-lg">... and {serverData.servers.length - 5} more</li>}
+                    {serverData.servers.length > 5 && (
+                      <li className="text-lg">
+                        ... and {serverData.servers.length - 5} more
+                      </li>
+                    )}
                   </ul>
                   <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
-                    <Link href="/server">
-                      View All Services
-                    </Link>
+                    <Link href="/server">View All Services</Link>
                   </Button>
                 </>
               ) : (

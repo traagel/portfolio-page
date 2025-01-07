@@ -1,12 +1,106 @@
 {
   "servers": [
     {
-      "name": "example-container",
-      "image": "example/image",
+      "name": "Doom-In-Docker",
+      "image": "https://hub.docker.com/r/callumhoughton22/doom-in-docker",
       "tag": "latest",
       "state": "RUNNING",
       "status": "Up 2 days",
-      "ports": ["8080:80"]
+      "ports": [
+        "1337:8080"
+      ]
+    },
+    {
+      "name": "Portfolio Page",
+      "image": "portfolio-page_portfolio",
+      "tag": "latest",
+      "state": "RUNNING",
+      "status": "Up 22 minutes",
+      "ports": [
+        "3500:3000"
+      ]
+    },
+    {
+      "name": "Node Exporter",
+      "image": "https://hub.docker.com/r/prometheus/node-exporter",
+      "tag": "latest",
+      "state": "RUNNING",
+      "status": "Up 2 hours",
+      "ports": []
+    },
+    {
+      "name": "Grafana",
+      "image": "https://hub.docker.com/r/grafana/grafana",
+      "tag": "latest",
+      "state": "RUNNING",
+      "status": "Up 2 hours",
+      "ports": [
+        "3000:3000"
+      ]
+    },
+    {
+      "name": "Prometheus",
+      "image": "https://hub.docker.com/r/prom/prometheus",
+      "tag": "latest",
+      "state": "RUNNING",
+      "status": "Up 2 hours",
+      "ports": [
+        "9090:9090"
+      ]
+    },
+    {
+      "name": "cAdvisor",
+      "image": "https://hub.docker.com/r/google/cadvisor",
+      "tag": "latest",
+      "state": "RUNNING",
+      "status": "Up 2 hours",
+      "ports": [
+        "6901:8080"
+      ]
+    },
+    {
+      "name": "Jellyfin",
+      "image": "https://hub.docker.com/r/linuxserver/jellyfin",
+      "tag": "latest",
+      "state": "RUNNING",
+      "status": "Up 2 weeks",
+      "ports": [
+        "1900:1900",
+        "7359:7359",
+        "8096:8096",
+        "8920:8920"
+      ]
+    },
+    {
+      "name": "Cloudflare Tunnel",
+      "image": "https://hub.docker.com/r/cloudflare/cloudflared",
+      "tag": "latest",
+      "state": "RUNNING",
+      "status": "Up 2 weeks",
+      "ports": []
+    },
+    {
+      "name": "Nginx Reverse Proxy",
+      "image": "https://hub.docker.com/_/nginx",
+      "tag": "latest",
+      "state": "RUNNING",
+      "status": "Up 3 weeks",
+      "ports": [
+        "80:80",
+        "443:443"
+      ]
+    },
+    {
+      "name": "Pi-hole",
+      "image": "https://hub.docker.com/r/pihole/pihole",
+      "tag": "latest",
+      "state": "RUNNING",
+      "status": "Up 3 weeks",
+      "ports": [
+        "53:53",
+        "8080:80",
+        "8443:443"
+      ]
     }
   ],
   "grafana": {
@@ -18,4 +112,3 @@
     }
   }
 }
-

@@ -1,0 +1,21 @@
+{
+  "graphs": [
+    {
+      "title": "CPU Usage",
+      "url": "http://monitoring.traagel.dev/dashboard/snapshot/scWMiVhYUB0o5YY7C4G4iD9KCeKQUbcy"
+    },
+    {
+      "title": "Memory Usage (GB)",
+      "url": "http://monitoring.traagel.dev/dashboard/snapshot/ImRYt0GjXn1mZARDLYsQYHuXyakEgvuw"
+    },
+    {
+      "title": "Disk Writes (Bytes/sec)",
+      "url": "http://monitoring.traagel.dev/dashboard/snapshot/1xCV62Gs4eWCRDXLDwljGBjH4OqiHmuq"
+    },
+    {
+      "title": "Swap Usage (GB)",
+      "url": "http://monitoring.traagel.dev/dashboard/snapshot/r8shdDEiyQeUhLMBa0xFp6SQNrWOsAqH"
+    }
+  ]
+}
+

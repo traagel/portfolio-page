@@ -1,0 +1,54 @@
+{
+  "showcaseProjects": {
+    "title": "Featured Projects",
+    "projects": [
+      {
+        "title": "Pixie",
+        "description": "A green-tech startup focused on smart, sustainable plant care solutions. Integrating IoT sensors with machine learning for optimal plant health.",
+        "imageUrl": "/images/projects/pixie.jpg",
+        "startDate": "2023-03-01",
+        "endDate": "2023-08-20"
+      },
+      {
+        "title": "akvalabs",
+        "description": "My first startup venture that made waves in competitions like Negavatt and Prototron. Focused on consumer-facing small and medium sized automated aquaponic solutions.",
+        "imageUrl": "/images/projects/akvalabs.jpg",
+        "startDate": "2019-04-01",
+        "endDate": "2020-08-31"
+      }
+    ]
+  },
+  "projectSections": [
+    {
+      "title": "Current Projects",
+      "projects": [
+        {
+          "title": "Naptime Stories",
+          "description": "An online platform for audio fairytales featuring AI-driven narration—allowing listeners to enjoy stories in their own voices.",
+          "imageUrl": "/images/projects/naptime.jpg",
+          "startDate": "2024-08-01",
+          "endDate": "Present"
+        }
+      ]
+    },
+    {
+      "title": "Past Projects",
+      "projects": [
+        {
+          "title": "Pixie",
+          "description": "A green-tech startup focused on smart, sustainable plant care solutions. Integrating IoT sensors with machine learning for optimal plant health.",
+          "imageUrl": "/images/projects/pixie.jpg",
+          "startDate": "2023-03-01",
+          "endDate": "2023-08-20"
+        },
+        {
+          "title": "akvalabs",
+          "description": "My first startup venture that made waves in competitions like Negavatt and Prototron. Focused on consumer-facing small and medium sized automated aquaponic solutions.",
+          "imageUrl": "/images/projects/akvalabs.jpg",
+          "startDate": "2019-04-01",
+          "endDate": "2020-08-31"
+        }
+      ]
+    }
+  ]
+}

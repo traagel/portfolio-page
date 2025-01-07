@@ -1,0 +1,21 @@
+{
+  "servers": [
+    {
+      "name": "example-container",
+      "image": "example/image",
+      "tag": "latest",
+      "state": "RUNNING",
+      "status": "Up 2 days",
+      "ports": ["8080:80"]
+    }
+  ],
+  "grafana": {
+    "dashboards": {
+      "cpu-usage": "abc123",
+      "memory-usage": "def456",
+      "network-traffic": "ghi789",
+      "disk-io": "jkl012"
+    }
+  }
+}
+

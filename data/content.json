@@ -1,0 +1,68 @@
+{
+  "personalInfo": {
+    "name": "Mart Traagel",
+    "title": "Data Engineer at Foxway | Lecturer at TalTech",
+    "intro": [
+      "I'm Mart, a data enthusiast with a knack for turning complex problems into elegant solutions. I'm a Data Engineer at Foxway, crafting efficient data pipelines and optimizing processes. Once or twice a week I'm sharing my passion for tech as a Lecturer at TalTech.",
+      "When I'm not knee-deep in code or explaining algorithms, you might find me tinkering with my latest startup idea or dreaming up sustainable tech solutions. I've got a soft spot for DevOps, and I get a kick out of making systems run smoother and faster.",
+      "Got a cool project idea or just want to geek out about data? Hit me up."
+    ],
+    "profileImage": "/images/profile/default-profile.png"
+  },
+  "experienceSection": {
+    "title": "Experience Highlights",
+    "experience": [
+      {
+        "title": "Data Engineer",
+        "company": "Foxway",
+        "period": "January 2024 - Present",
+        "description": "Spearheading CI/CD pipeline development for IaC and data transformation. Optimizing ETL processes and implementing best practices for infrastructure frameworks."
+      },
+      {
+        "title": "Lecturer",
+        "company": "TalTech",
+        "period": "June 2023 - Present",
+        "description": "Teaching Programming, Algorithms & Data Structures, and Digital Logic. Inspiring the next generation of tech innovators with hands-on learning experiences."
+      },
+      {
+        "title": "Junior Data Engineer",
+        "company": "Creditstar Group",
+        "period": "October 2023 - January 2024",
+        "description": "Improved ETL stability, automated reporting, and developed a real-time reporting web application. Optimized Airflow configurations and enhanced data migration pipelines."
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": "Master of Science in Engineering, Data Science",
+      "institution": "University of Tartu",
+      "period": "September 2020 - June 2023"
+    },
+    {
+      "degree": "Mechatronics, Robotics, and Automation Engineering",
+      "institution": "Estonian University of Life Sciences",
+      "period": "2015 - 2020"
+    }
+  ],
+  "skills": [
+    "Data Engineering",
+    "DevOps",
+    "CI/CD",
+    "Infrastructure as Code",
+    "ETL",
+    "Airflow",
+    "ClickHouse",
+    "Mage",
+    "Terraform",
+    "dbt",
+    "git",
+    "Python",
+    "C++",
+    "Leadership"
+  ],
+  "certifications": [
+    "IT Specialist I",
+    "Mechatronics Engineer level 6",
+    "ASSOCIATE - Mechanical Design"
+  ]
+}

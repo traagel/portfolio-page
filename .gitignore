@@ -1,0 +1,56 @@
+# Next.js build output
+.next
+out
+
+# Dependencies
+node_modules
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor folders
+.vscode
+.idea
+*.swp
+*.swo
+
+# Build artifacts
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage
+
+# Misc
+.vercel
+.netlify
+
+# TypeScript
+*.tsbuildinfo
+
+# PWA files
+public/sw.js
+public/workbox-*.js
+
+# Storybook
+storybook-static
+
+# Optional: Uncomment if using Cypress for testing
+# cypress/videos
+# cypress/screenshots
+

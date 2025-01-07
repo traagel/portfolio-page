@@ -1,0 +1,139 @@
+{
+  "experience": [
+    {
+      "title": "Data Engineer",
+      "company": "Foxway Recommerce",
+      "period": "January 2024 - Present",
+      "description": "Developing and refining CI/CD pipelines for IaC and data transformation tools, automating systems, and enhancing scalability. Transitioning legacy systems to modern platforms and utilizing advanced technologies such as ClickHouse, Mage, Terraform, dbt, and git."
+    },
+    {
+      "title": "Lecturer",
+      "company": "TalTech – Tallinn University of Technology",
+      "period": "June 2023 - Present",
+      "description": "Teaching courses on Programming, Algorithms & Data Structures, and Digital Logic. Specializing in practical applications of C++ and Python, algorithm design, and fundamentals of digital computing."
+    },
+    {
+      "title": "Junior Data Engineer",
+      "company": "Creditstar Group",
+      "period": "October 2023 - January 2024",
+      "description": "Improved stability of ETL processes, automated report generation, and created a web application for real-time reporting. Optimized Airflow configurations and improved EMR data migration pipelines."
+    },
+    {
+      "title": "Private Tutor",
+      "company": "Freelance",
+      "period": "January 2021 - January 2024",
+      "description": "Provided private tutoring in mathematics and physics for middle school, high school, and introductory higher education students. Helped over 30 students with exam preparation and curriculum support."
+    },
+    {
+      "title": "Founder",
+      "company": "Pixie",
+      "period": "August 2022 - June 2023",
+      "description": "Founded a startup focused on sustainable houseplant care solutions."
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Pipedrive",
+      "period": "June 2022 - June 2023",
+      "description": "Developed solutions for payments and billing systems as part of the Industrial Master's Programme in IT by the University of Tartu."
+    },
+    {
+      "title": "Founder",
+      "company": "akvalabs",
+      "period": "April 2019 - August 2020",
+      "description": "Designed an MVP for an automated year-round greenhouse as part of the Mechatronics Engineering thesis. Participated in multiple startup competitions."
+    },
+    {
+      "title": "Electromechanical Technician",
+      "company": "Sprayprinter (now Robot Muralist)",
+      "period": "January 2018 - August 2018",
+      "description": "Assembled, tested, upgraded, and maintained wall-painting robots. Collaborated with engineers to test and upgrade new features."
+    },
+    {
+      "title": "Engineering Technologist",
+      "company": "HANZA Group",
+      "period": "September 2017 - October 2017",
+      "description": "Completed a Mechatronics engineering internship, edited and created assembly instructions, and conducted testing in a laboratory setting."
+    },
+    {
+      "title": "Software Development Intern",
+      "company": "University of Tartu",
+      "period": "July 2011 - December 2011",
+      "description": "Worked on software development using Adobe Flash, PHP, and JavaScript. Took on additional tasks such as camera operation, customer service, and visual design."
+    },
+    {
+      "title": "Database Management Specialist Intern",
+      "company": "Tartu Public Library",
+      "period": "February 2011 - May 2011",
+      "description": "Provided IT and customer support, managed databases, and assisted in system updates."
+    },
+    {
+      "title": "IT Specialist",
+      "company": "Johannes Mihkelsoni Keskus, MTÜ",
+      "period": "January 2010 - December 2010",
+      "description": "Handled website development, server management, and updates."
+    },
+    {
+      "title": "Infrastructure Development Intern",
+      "company": "Leenet OÜ",
+      "period": "February 2010 - August 2010",
+      "description": "Developed an automated system for database backup and logging."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Engineering, Data Science",
+      "institution": "University of Tartu",
+      "period": "September 2020 - June 2023"
+    },
+    {
+      "degree": "Mechatronics, Robotics, and Automation Engineering",
+      "institution": "Estonian University of Life Sciences",
+      "period": "2015 - 2020"
+    },
+    {
+      "degree": "Vocational, Databases and Software Management",
+      "institution": "Tartu Vocational College",
+      "period": "September 2008 - January 2012"
+    }
+  ],
+  "skills": [
+    "Leadership",
+    "Data Engineering",
+    "Data Analytics",
+    "Airflow",
+    "CI/CD",
+    "Infrastructure as Code",
+    "ETL",
+    "ClickHouse",
+    "Mage.ai",
+    "Terraform",
+    "dbt",
+    "git",
+    "Python",
+    "AWS",
+    "SQL",
+    "NoSQL",
+    "Apache Spark",
+    "Hadoop",
+    "Kafka",
+    "Docker",
+    "Kubernetes",
+    "PostgreSQL",
+    "MySQL",
+    "Snowflake",
+    "Data Warehousing",
+    "Data Modeling",
+    "Pandas",
+    "Polars",
+    "NumPy",
+    "REST APIs",
+    "Graph Databases",
+    "RDF Knowledge Graphs"
+  ],
+  "certifications": [
+    "IT Specialist I",
+    "Mechatronics Engineer level 6",
+    "ASSOCIATE - Mechanical Design",
+    "Certified Kubernetes Application Developer (CKAD) - In progress"
+  ]
+}

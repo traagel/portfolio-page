@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 16% 95%;
+    --foreground: 210 12% 5%; /* Updated foreground color */
+
+    --card: 220 16% 90%;
+    --card-foreground: 210 12% 5%; /* Updated card-foreground color */
+
+    --popover: 220 16% 90%;
+    --popover-foreground: 210 12% 16%;
+
+    --primary: 210 12% 20%;
+    --primary-foreground: 220 16% 95%;
+
+    --secondary: 199 10% 30%;
+    --secondary-foreground: 220 16% 95%;
+
+    --muted: 199 10% 30%;
+    --muted-foreground: 220 16% 95%;
+
+    --accent: 199 10% 30%;
+    --accent-foreground: 220 16% 95%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 220 16% 95%;
+
+    --border: 199 10% 30%;
+    --input: 199 10% 30%;
+    --ring: 199 10% 30%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 210 12% 20%;
+    --foreground: 220 16% 95%;
+
+    --card: 210 12% 16%;
+    --card-foreground: 220 16% 95%;
+
+    --popover: 210 12% 20%;
+    --popover-foreground: 220 16% 95%;
+
+    --primary: 199 10% 30%;
+    --primary-foreground: 220 16% 95%;
+
+    --secondary: 199 10% 30%;
+    --secondary-foreground: 220 16% 95%;
+
+    --muted: 199 10% 30%;
+    --muted-foreground: 220 16% 95%;
+
+    --accent: 199 10% 30%;
+    --accent-foreground: 220 16% 95%;
+
+    --destructive: 0 50% 40%;
+    --destructive-foreground: 220 16% 95%;
+
+    --border: 199 10% 30%;
+    --input: 199 10% 30%;
+    --ring: 199 10% 30%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .hover-highlight {
+    @apply transition-colors duration-200 ease-in-out;
+  }
+
+  .hover-highlight:hover {
+    @apply bg-secondary/10 dark:bg-secondary/20;
+  }
+  .card-hover-effect {
+    @apply transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1;
+  }
+}
+
+
+body {
+  @apply bg-gradient-to-b from-background to-background/80 min-h-screen;
+}
+
+.container {
+  @apply max-w-4xl;
+}
+

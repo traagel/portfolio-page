@@ -1,0 +1,30 @@
+{
+  "title": "Hobbies & Interests",
+  "hobbies": [
+    {
+      "title": "3D Printing",
+      "description": "Bringing digital designs to life, one layer at a time. Creating custom parts for DIY projects and prototyping ideas for potential startups.",
+      "imageUrl": "/images/placeholder.jpg"
+    },
+    {
+      "title": "Hiking",
+      "description": "Exploring Estonia's beautiful forests and national parks. Using tech to track routes and discover new trails.",
+      "imageUrl": "/images/placeholder.jpg"
+    },
+    {
+      "title": "Board Games",
+      "description": "Enjoying strategy games that challenge the mind. Favorite titles include Settlers of Catan, Ticket to Ride, Pandemic, and Warhammer 40k. Currently tackling a large grey pile of shame!",
+      "imageUrl": "/images/placeholder.jpg"
+    },
+    {
+      "title": "Gym (Strength Training)",
+      "description": "Focusing on compound barbell lifts and functional movements. Aiming for progressive overload and better overall health.",
+      "imageUrl": "/images/placeholder.jpg"
+    },
+    {
+      "title": "Painting",
+      "description": "Working primarily with oil paints to capture the mood and beauty of landscapes, focusing on light and color.",
+      "imageUrl": "/images/placeholder.jpg"
+    }
+  ]
+}

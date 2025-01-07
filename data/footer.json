@@ -1,0 +1,25 @@
+{
+  "name": "Mart Traagel",
+  "website": {
+    "url": "https://traagel.dev",
+    "label": "traagel.dev"
+  },
+  "socialLinks": [
+    {
+      "icon": "Github",
+      "label": "GitHub",
+      "url": "https://github.com/traagel"
+    },
+    {
+      "icon": "Linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/mart-traagel"
+    },
+    {
+      "icon": "Mail",
+      "label": "Email",
+      "url": "mailto:mart@traagel.dev"
+    }
+  ]
+}
+

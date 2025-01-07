@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Mart Traagel - Data Engineer & Lecturer Portfolio',
   description: 'Data Engineer at Foxway | Lecturer at TalTech',
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL('http://localhost:3500'),
 }
 
 export default function RootLayout({

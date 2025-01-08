@@ -10,15 +10,15 @@
     },
     {
       "title": "Disk Writes (Bytes/sec)",
-      "url": "http://192.168.1.186:3000/dashboard/snapshot/OsZin5oOq98y9WXJrBMwcUdS8MFhdpSS"
+      "url": "http://monitoring.traagel.dev/dashboard/snapshot/OsZin5oOq98y9WXJrBMwcUdS8MFhdpSS"
     },
     {
       "title": "Swap Usage (GB)",
-      "url": "http://192.168.1.186:3000/dashboard/snapshot/fhYwkHfpOhNq5itKU9xrgpjsAmryY4b3"
+      "url": "http://monitoring.traagel.dev/dashboard/snapshot/fhYwkHfpOhNq5itKU9xrgpjsAmryY4b3"
     },
     {
       "title": "Temperature",
-      "url": "http://192.168.1.186:3000/dashboard/snapshot/aU6qu2wot8tYdCWMhjLH1bwehr6jlvuM"
+      "url": "http://monitoring.traagel.dev/dashboard/snapshot/aU6qu2wot8tYdCWMhjLH1bwehr6jlvuM"
     }
   ]
 }

@@ -2,20 +2,23 @@
   "graphs": [
     {
       "title": "CPU Usage",
-      "url": "http://monitoring.traagel.dev/dashboard/snapshot/scWMiVhYUB0o5YY7C4G4iD9KCeKQUbcy"
+      "url": "http://monitoring.traagel.dev/dashboard/snapshot/pkxcsmkin8pODpZRGA6eVA3gZzjG8upc"
     },
     {
       "title": "Memory Usage (GB)",
-      "url": "http://monitoring.traagel.dev/dashboard/snapshot/ImRYt0GjXn1mZARDLYsQYHuXyakEgvuw"
+      "url": "http://monitoring.traagel.dev/dashboard/snapshot/6bCm1AxKfosicGr8XodOF1o4z33zCUoA"
     },
     {
       "title": "Disk Writes (Bytes/sec)",
-      "url": "http://monitoring.traagel.dev/dashboard/snapshot/1xCV62Gs4eWCRDXLDwljGBjH4OqiHmuq"
+      "url": "http://192.168.1.186:3000/dashboard/snapshot/OsZin5oOq98y9WXJrBMwcUdS8MFhdpSS"
     },
     {
       "title": "Swap Usage (GB)",
-      "url": "http://monitoring.traagel.dev/dashboard/snapshot/r8shdDEiyQeUhLMBa0xFp6SQNrWOsAqH"
+      "url": "http://192.168.1.186:3000/dashboard/snapshot/fhYwkHfpOhNq5itKU9xrgpjsAmryY4b3"
+    },
+    {
+      "title": "Temperature",
+      "url": "http://192.168.1.186:3000/dashboard/snapshot/aU6qu2wot8tYdCWMhjLH1bwehr6jlvuM"
     }
   ]
 }
-

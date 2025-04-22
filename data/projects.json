@@ -27,7 +27,7 @@
           "title": "Fairytale Realm",
           "description": "A page for listening to AI-generated audio for classical and public domain fairytales.",
           "imageUrl": "/images/projects/fairytale-realm.png",
-          "startDate": "2024-01-01",
+          "startDate": "2025-01-20",
           "endDate": "Present",
           "url": "https://www.fairytalerealm.com/"
         },
@@ -35,7 +35,7 @@
           "title": "AI Platformer",
           "description": "A platformer game powered by AI, playable online.",
           "imageUrl": "/images/projects/platformer.jpg",
-          "startDate": "2024-03-01",
+          "startDate": "2025-04-22",
           "endDate": "Present",
           "url": "https://aiplatformer.traagel.dev/"
         }

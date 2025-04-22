@@ -33,7 +33,7 @@ export default function Home() {
     <PageLayout title={content.personalInfo.name}>
       <Suspense fallback={<div>Loading...</div>}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <FadeInWhenVisible transition={{ type: "tween", duration: 0.4, ease: "easeOut" }}>
+          <FadeInWhenVisible>
             <div className="flex flex-col items-center mb-12">
               <Image
                 src={content.personalInfo.profileImage}
@@ -46,7 +46,7 @@ export default function Home() {
             </div>
           </FadeInWhenVisible>
 
-          <FadeInWhenVisible transition={{ type: "tween", duration: 0.4, ease: "easeOut" }}>
+          <FadeInWhenVisible>
             <section className="mb-12">
               <h2 className="text-2xl font-semibold mb-4 text-foreground">Hey there! 👋</h2>
               {content.personalInfo.intro.map((paragraph, index) => (
@@ -55,13 +55,13 @@ export default function Home() {
             </section>
           </FadeInWhenVisible>
 
-          <FadeInWhenVisible transition={{ type: "tween", duration: 0.4, ease: "easeOut" }}>
+          <FadeInWhenVisible>
             <div className="mb-16">
               <ContactSection />
             </div>
           </FadeInWhenVisible>
 
-          <FadeInWhenVisible transition={{ type: "tween", duration: 0.4, ease: "easeOut" }}>
+          <FadeInWhenVisible>
             <div className="mb-16">
               <SectionCard
                 title={content.experienceSection.title}
@@ -77,7 +77,7 @@ export default function Home() {
             </div>
           </FadeInWhenVisible>
 
-          <FadeInWhenVisible transition={{ type: "tween", duration: 0.4, ease: "easeOut" }}>
+          <FadeInWhenVisible>
             <div className="mb-16">
               <SectionCard
                 title={projectsData.showcaseProjects.title}
@@ -92,7 +92,7 @@ export default function Home() {
             </div>
           </FadeInWhenVisible>
 
-          <FadeInWhenVisible transition={{ type: "tween", duration: 0.4, ease: "easeOut" }}>
+          <FadeInWhenVisible>
             <div className="mb-16">
               <SectionCard
                 title={hobbiesData.title}
@@ -107,7 +107,7 @@ export default function Home() {
             </div>
           </FadeInWhenVisible>
 
-          <FadeInWhenVisible transition={{ type: "tween", duration: 0.4, ease: "easeOut" }}>
+          <FadeInWhenVisible>
             <section className="mb-16">
               <h2 className="text-2xl font-semibold mb-6">Homelab Node Monitoring</h2>
               <p className="text-lg mb-4">

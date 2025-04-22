@@ -32,30 +32,29 @@ export default function ServerPage() {
                 date="Doom in browser"
               />
             </a>
+            <a target="_blank" href="https://mart.traagel.dev" rel="noopener noreferrer">
+              <ProjectCard
+                title="Portfolio Page"
+                description="My personal portfolio, built with Next.js, Bun, and running on my homelab."
+                imageUrl="/images/projects/portfolio.jpg"
+                date="mart.traagel.dev"
+              />
+            </a>
+            <a target="_blank" href="https://aiplatformer.traagel.dev" rel="noopener noreferrer">
+              <ProjectCard
+                title="AI Platformer"
+                description="A platformer game powered by AI, playable online and hosted on my homelab."
+                imageUrl="/images/projects/platformer.jpg"
+                date="aiplatformer.traagel.dev"
+              />
+            </a>
           </div>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold mb-4">Server Performance</h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
-            {grafanaGraphs.graphs.map((graph, index) => (
-              <Card key={index} className="bg-card">
-                <CardHeader>
-                  <CardTitle>{graph.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="relative w-full pb-[110%]">
-                    <iframe
-                      src={`${graph.url}?kiosk`}
-                      className="absolute top-0 left-0 w-full h-full"
-                      frameBorder="0"
-                      title={graph.title}
-                    />
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+          <h2 className="text-2xl font-semibold mb-4">Server Performance <span className="text-yellow-500">(WIP)</span></h2>
+          <div className="p-6 bg-yellow-50 border-l-4 border-yellow-400 text-yellow-800 rounded">
+            This section is a work in progress. Soon you'll be able to see live server and service metrics from my homelab!
           </div>
         </section>
       </PageLayout>

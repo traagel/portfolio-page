@@ -28,8 +28,6 @@ export function SectionCard({ title, items, linkText, linkHref }: SectionCardPro
               <Link href={item.link} key={index} className="block">
                 <HoverCard
                   className="p-4 rounded-md transition-all duration-300 ease-in-out hover:bg-accent/10"
-                  whileHover={{ scale: 1.02, translateY: -5 }}
-                  transition={{ type: "spring", stiffness: 300, damping: 20 }}
                 >
                   <h3 className="text-lg font-semibold text-foreground">{item.title}</h3>
                   {item.date && <p className="text-sm text-foreground/70 dark:text-muted-foreground mb-2">{item.date}</p>}

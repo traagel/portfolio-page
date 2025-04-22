@@ -22,12 +22,22 @@
     {
       "title": "Current Projects",
       "projects": [
+
         {
-          "title": "Naptime Stories",
-          "description": "An online platform for audio fairytales featuring AI-driven narration—allowing listeners to enjoy stories in their own voices.",
-          "imageUrl": "/images/projects/naptime.jpg",
-          "startDate": "2024-08-01",
-          "endDate": "Present"
+          "title": "Fairytale Realm",
+          "description": "A page for listening to AI-generated audio for classical and public domain fairytales.",
+          "imageUrl": "/images/projects/fairytale-realm.png",
+          "startDate": "2024-01-01",
+          "endDate": "Present",
+          "url": "https://www.fairytalerealm.com/"
+        },
+        {
+          "title": "AI Platformer",
+          "description": "A platformer game powered by AI, playable online.",
+          "imageUrl": "/images/projects/platformer.jpg",
+          "startDate": "2024-03-01",
+          "endDate": "Present",
+          "url": "https://aiplatformer.traagel.dev/"
         }
       ]
     },
@@ -47,6 +57,14 @@
           "imageUrl": "/images/projects/akvalabs.jpg",
           "startDate": "2019-04-01",
           "endDate": "2020-08-31"
+        },
+
+        {
+          "title": "Naptime Stories",
+          "description": "An online platform for audio fairytales featuring AI-driven narration—allowing listeners to enjoy stories in their own voices.",
+          "imageUrl": "/images/projects/naptime.jpg",
+          "startDate": "2024-08-01",
+          "endDate": "2025-01-10"
         }
       ]
     }
